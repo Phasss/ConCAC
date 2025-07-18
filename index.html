@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="programacao.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -96,69 +100,35 @@
 
     <!-- Programação -->
     <section id="programacao" class="schedule">
+        <nav class="nav-tabs">
         <div class="container">
-            <h2>Programação do <span>Evento</span></h2>
-            <div class="schedule-grid">
-                <div class="schedule-day">
-                    <div class="day-header">
-                        <h3>Segunda-feira</h3>
-                        <p class="date">21/07/2025</p>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">09:00 - 10:30</div>
-                        <div class="event-details">
-                            <h4>Abertura do CONCAC</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">11:00 - 12:30</div>
-                        <div class="event-details">
-                            <h4>Intervenções artísticas e culturais</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">14:00 - 18:30</div>
-                        <div class="event-details">
-                            <h4>Apresentações e oficinas</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="tabs">
+                <button class="tab-button active" data-day="0">
+                    <i class="fas fa-play-circle"></i>
+                    <span>21/07 - Primeiro Dia</span>
+                </button>
+                <button class="tab-button" data-day="1">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>22/07 - Segundo Dia</span>
+                </button>
+            </div>
+        </div>
+    </nav>
 
-                <div class="schedule-day">
-                    <div class="day-header">
-                        <h3>Terça-feira</h3>
-                        <p class="date">22/07/2025</p>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">09:00 - 12:00</div>
-                        <div class="event-details">
-                            <h4>Intervenções artísticas e culturais</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">14:00 - 16:00</div>
-                        <div class="event-details">
-                            <h4>Apresentação das atividades de extensão e exposições</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">16:30 - 18:30</div>
-                        <div class="event-details">
-                            <h4>Oficinas e intervenções artísticas culturais</h4>
-                            <p>Hall do CAC</p>
-                        </div>
-                    </div>
+    <main class="main">
+        <div class="container">
+            <div class="schedule-container">
+                <div class="day-header">
+                    <h2 id="day-title">Primeiro Dia do ConCAC – Conectando Saberes</h2>
+                    <p id="day-date">21 de Julho de 2025</p>
+                </div>
+                
+                <div class="timeline" id="timeline">
+                    <!-- O conteúdo será gerado dinamicamente pelo JavaScript -->
                 </div>
             </div>
-              <div class="cta-button">
-                        <a href="programacao.html" class="btn">Mais Informações</a>
-             </div>  
         </div>
+    </main>
                   
 
     </section>
@@ -242,5 +212,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="schedule_programacao.js"></script>
+    <script src="script_programacao.js"></script>
 </body>
 </html>
