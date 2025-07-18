@@ -32,7 +32,7 @@ function initializeEventListeners() {
     });
 
     // Mobile menu toggle
-    const mobileMenuIcon = document.querySelector(".mobile-menu-icon");
+    /* const mobileMenuIcon = document.querySelector(".mobile-menu-icon");
     const mobileNav = document.querySelector(".mobile-nav");
 
     if (mobileMenuIcon && mobileNav) {
@@ -46,7 +46,7 @@ function initializeEventListeners() {
                 mobileNav.classList.remove("active");
             });
         });
-    }
+    } */
 }
 
 // Alternar entre os dias
