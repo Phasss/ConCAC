@@ -7,11 +7,10 @@ const scheduleData = [
       { time: '9h30 – 10h', description: 'Apresentação Artística e Cultural: Prática do Choro – Coordenação: Prof. Artur Duvivier Ortenblad | Local: Hall do CAC' },
       { time: '10h – 10h40', description: 'Apresentação Artística e Cultural: Músicas e Danças: uma volta pelo tempo - Coordenação: Profa. Daniele Cruz Barros | Local: Hall do CAC' },
       {
-        time: '10h30 – 12h30', description: 'Oficinas (Inscrições até o dia 21/07):',
+        time: '10h30 – 12h30', description: 'Oficinas:',
         details: [
           'Revista Equívoca: Ensaísmo como entrelugar - Coordenação: Prof. Thiago Soares | Duração: 2hrs | Local: Mini Auditório 1',
-          'Cultura de Paz e Cidadania em Contextos Educacionais | Coordenação: Wellington Lima de Andrade (Comissão de Direitos Humanos) | Duração: 2hrs | Local: Sala MDU',
-          'Fabricação Digital na Moda Sustentável – Coordenação: Wanderlayne Fernandes do Amaral |  Duração: 3hrs | Local: Grea3D'
+          'Fabricação Digital na Moda Sustentável – Coordenação: Prof. Sadi da Silva Seabra Filho |  Duração: 3hrs | Local: Grea3D'
         ]
       },
       { time: 'Intervalo', description: '' },
@@ -24,25 +23,26 @@ const scheduleData = [
           'Entrevistas:',
           '- Profa. Maria da Conceição dos Reis - Pró-reitora de Extensão da UFPE',
           '- Prof.Fabiano Diniz (ou representante da equipe do CIAPA): projeto de regularização fundiária –  Departamento de Arquitetura',
-          '- Profa. Maria Acserald: projeto de levantamento de Ursos (“Abraço de urso”) – Departamento de Dança/Artes',
+          '- Profa. Maria Acserald: projeto de criação em dança (“Abraço de urso”) – Curso de Dança/Departamento de Artes',
           '- Profa. Karla Patriota: projeto de Consultoria Publicitária para Instituições sem fins lucrativos – Departamento de Comunicação Social',
           '- Prof.Sadi Seabra Filho: projeto Jiu-Jitsu para Todos: Defesa Pessoal, Arte e Empoderamento – Departamento de Expressão Gráfica',
           'Apresentações durante o programa da Rádio Paulo Freire no ConCAC',
           'Literatura/Teatro:',
           '- Prof. Hélio Pajeú: projeto Restos de Felicidade (Interpretação Teatral/Literária) – Departamento de Ciência da Informação',
           'Música:',
-          '- Prof. Artur Duvivier Ortenblad (MUSICAC, música no CAC): Música Brasileira para Quinteto de Sopros, uma vivência cultural através de ConcertoS-aula. – Departamento de Música'
+          '- Prof. Artur Duvivier Ortenblad (MUSICAC, música no CAC): apresentação de dois duos – Departamento de Música'
         ]
       },
       {
-        time: '15h30 – 18h30', description: 'Oficinas (Inscrições até o dia 21/07):',
+        time: '15h30 – 18h30', description: 'Oficinas (Inscrições até o dia 20/07):',
         details: [
           'Jiu-Jitsu para Todos: Defesa Pessoal, Arte e Empoderamento – Coordenação: Prof. Sadi da Silva Seabra Filho | Local: Sala de Dança',
           'Revela e Cria! A Arte do Carimbo e da Estamparia – Coordenação: Profa. Marina Giovana Sales Pereira | Duração: 3hrs | Local: Sala 02/DCI',
-          'Produção de Têxtil Sustentável – Coordenação: Profa. Thyana Farias Galvão | Duração: 3hrs | Local: a definir',
+          'Produção de Têxtil Sustentável – Coordenação: Profa. Thyana Farias Galvão | Duração: 3hrs | Local: Lab. Pranchetas/Depto. Expressão Gráfica',
+          'Encadernação: brochura – Coordenação: Profa. Thais Helen do Nascimento Santos | Duração: 2hrs | Local: Sala 01/DCI',
           'Impressão 3D: Do Modelo Digital ao Objeto Físico – Coordenação: Prof. Sadi da Silva Seabra Filho | Duração: 3hrs | Local: Grea3D',
-          'Comunicação e Artes: encontro do Jornalismo com a Escrita Criativa – Coordenação: Profa. Raldianny Pereira Dos Santos | Local: a definir',
-          'Invente você: oficina de fotoperformance | Coordenação: Profa. Renata Wilner | Duração: 2hrs | Local: A definir'
+          'Comunicação e Artes: encontro do Jornalismo com a Escrita Criativa – Coordenação: Profa. Raldianny Pereira Dos Santos | Local: Sala MDU',
+          'Invente você: oficina de fotoperformance | Coordenação: Profa. Renata Wilner | Duração: 2hrs | Local: Sala do Conselho do CAC'
         ]
       },
       { time: '17h – 18h', description: 'Intervenção Artística e Cultural: Abraço de Urso | Coordenação: Profa. Maria Acselrad – Local: Anfiteatro do CAC' }
@@ -70,7 +70,7 @@ const scheduleData = [
           '11h:15 – 11h30: O mercado profissional do Gestor da Informação: um estudo sobre as possibilidades de atuação II - Coordenação: Prof. Antonio de Souza Silva Júnior',
           '11h:30 – 11h45: BiblioArte 2024 - IRADO 2.0 - Coordenação: Prof. Diego Andres Salcedo ',
           '11h:45 – 12h: Podcast InteraGI – Mediando informação de qualidade entre a universidade e mundo - Coordenação: Prof. Alexander Willian Azevedo',
-          'Local: Mini Auditório 1',
+          'Local: Hall do CAC',
           'Eixo 2: Comunicação, Informação, Cultura e Sociedade',
           '9h – 9h15: Repositório digital da memória indígena do Nordeste - Coordenação: Prof. Alexander Willian Azevedo',
           '9h15 – 9h30: Consultoria Publicitária para Instituições sem fins lucrativos – Coordenação: Profa. Karla Regina Macena Pereira Patriota',
@@ -92,6 +92,8 @@ const scheduleData = [
         ]
       },
       { time: 'Intervalo', description: '' },
+      { time: '14h - 17h', description: 'Oficinas:',
+        details: ['Trabalha, estuda e cuida: desafios enfrentados pelas mães-estudantes na UFPE - Coordenação: Profa. Maria Collier de Mendonça | Local: Laboratório de Inovação Midiática']},
       {
         time: '14h - 15h30', description: 'Exposição: Quando a Linha do Trem Cruza a Linha da Vida – Local: Hall do CAC |  Coordenação: Profa. Izabella Galera '
       },
@@ -103,14 +105,11 @@ const scheduleData = [
       },
       {
         time: '16h – 18h', description: 'Oficinas:',
-        details: [
-          'Trabalha, estuda e cuida: desafios enfrentados pelas mães-estudantes na UFPE - Coordenação: Profa. Maria Collier de Mendonça | Local: Laboratório de Inovação Midiática',
-          'Encadernação: brochura – Coordenação: Profa. Thais Helen do Nascimento Santos | Duração: 2hrs | Local: Sala 01/DCI',
-          'Fabricação Digital na Moda Sustentável – Coordenação: Prof. Sadi da Silva Seabra Filho |  Duração: 3hrs | Local: Grea3D',
-          'Onde bate seu coração?: Oficina de Modelagem com Corrugados | Coordenação: Profa. Joana D\'Arc de Sousa Lima | Duração: 3hrs | Local: A definir'
+        details: [,
+          'Onde bate seu coração?: Oficina de Modelagem com Corrugados | Coordenação: Profa. Joana D\'Arc de Sousa Lima | Duração: 3hrs | Local: Sala MDU'
         ]
       },
-      { time: '18h - 19h', description: 'Encerramento com Apresentação cultural musical com o repertório pernambucano | Coordenação: Fábio Wanderley Janhan Sousa | Local: Hall do CAC' }
+      { time: '18h - 19h', description: 'Encerramento com Apresentação Musical da Banda PsicoFrevo, do projeto: Produção fonográfica de artistas emergentes | Coordenação: Fábio Wanderley Janhan Sousa | Local: Hall do CAC' }
     ]
   }
 ];
