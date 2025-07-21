@@ -53,9 +53,9 @@ const scheduleData = [
     day: 'Segundo Dia do ConCAC',
     events: [
       {
-        time: '9h - 12h', description: 'Apresentação na Modalidade Oral: Ações de Extensão do CAC',
+        time: '9h - 12h', description: 'Apresentação na Modalidade Oral: Ações de Extensão do CAC |  Artes, Saberes e Comunidades | Comunicação, Informação, Cultura e Sociedade',
         details: [
-          'Local: Mini Auditório 2',
+          'Local: Sala do Conselho do CAC',
           'Eixo 1: Artes, Saberes e Comunidades',
           '9h – 9h15: Projeto arquitetônico, urbanístico e paisagístico para apreça de apoio à horta comunitária do Conjunto Habitacional Ruy Frazão (Recife/PE) – Coordenação: Prof. Fábio Ferreira Lins Mosaner',
           '9h15 – 9h30: Colóquio A espinha dorsal do espanto: celebrando a literatura e a arte de Braulio Tavares – Coordenação: Prof. André de Sena Wanderley',
@@ -78,6 +78,12 @@ const scheduleData = [
           '9h45 – 10h: MUSICAC na rádio e escuta aqui | Coordenação: Prof. Artur Duvivier Ortenblad ',
           '10h – 10h15: Alvo Certo: Desenvolvimento de competências tecnológicas e atitudinais em jovens em situação de vulnerabilidade - Coordenação: Prof. Natanael Vitor Sobral',
           '10h15 – 10h30: Cartografando o Frevo: a construção da “identidade frevística” em agentes culturais da Região Metropolitana do Recife - Coordenação: Profa. Ana Paula Campos Lima',
+        ]
+      },
+            {
+        time: '9h - 12h', description: 'Apresentação na Modalidade Oral: Ações de Extensão do CAC | Linguagens, Mídias e Tecnologias | Memória, Patrimônio e Identidades | Processos Criativos, Formação e Mediação Cultural ',
+        details: [
+          'Local: Hall do CAC',
           'Eixo 3 – Linguagens, Mídias e Tecnologias',
           '10h30 – 10h45: Produção fonográfica e audiovisual Musicac UFPE 2025 | Coordenação: Prof. Fabio Wanderley Janhan Sousa',
           '10h45 – 11h: GREA3D CULTURAL: laboratório de tecnologia digital para manutenção de acervo, exposições e promoção de formação no Centro Cultural Benfica - Coordenação: Profa. Auta Luciana Laurentino',
