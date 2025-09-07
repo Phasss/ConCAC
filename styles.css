@@ -1,7 +1,7 @@
 /* Variáveis de cores baseadas no logo ConCAC */
 :root {
-    --primary-color: #ff5722; /* Laranja vibrante */
-    --secondary-color: #9c27b0; /* Roxo */
+    --primary-color: #0019fc; /* Laranja vibrante */
+    --secondary-color: #777777; /* Roxo */
     --accent-color: #2196f3; /* Azul */
     --accent2-color: #4caf50; /* Verde */
     --accent3-color: #ffeb3b; /* Amarelo */
@@ -311,7 +311,7 @@ header .container {
 
 /* Presentations Section */
 .presentations {
-    background-color: var(--light-color);
+    background-color:#ffffff;
     position: relative;
     overflow: hidden;
 }
@@ -349,57 +349,9 @@ header .container {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* No seu arquivo CSS (ou dentro de uma tag <style> no <head>) */
-
-.botoes-lado-a-lado {
-    display: flex; /* Transforma o contêiner em um flex container */
-    justify-content: center; /* Centraliza os itens horizontalmente (opcional, mas bom para botões) */
-    gap: 20px; /* Adiciona um espaço entre os botões (opcional, ajuste o valor conforme necessário) */
-    flex-wrap: wrap; /* Permite que os botões quebrem a linha em telas menores */
-    margin-top: 20px; /* Adiciona um espaço acima dos botões (opcional) */
-    margin-bottom: 20px; /* Adiciona um espaço abaixo dos botões (opcional) */
-}
-
-/* Você pode querer ajustar os estilos do seu .cta-button-pr e .btn também, se necessário,
-   para garantir que eles se ajustem bem lado a lado, como remover margens que os empurrem. */
-.cta-button-pr {
-    /* Exemplo: Remover margens que possam estar empurrando os elementos para baixo */
-    margin: 0;
-}
-
-.btn {
-    /* Exemplo de estilos para o botão (se já não estiverem definidos) */
-    display: inline-block; /* Garante que o link se comporta como um bloco para padding/margin */
-    padding: 15px 30px;
-    background: linear-gradient(to right, #ff6b6b, #ee5286); /* Exemplo de gradiente como na imagem */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    transition: background 0.3s ease;
-}
-
-.btn:hover {
-    background: linear-gradient(to right, #ee5286, #ff6b6b); /* Exemplo de hover */
-}
-
-/* Para garantir que os botões se ajustem em telas pequenas, especialmente se o texto for longo */
-@media (max-width: 600px) {
-    .botoes-lado-a-lado {
-        flex-direction: column; /* Em telas menores, os botões ficam um abaixo do outro */
-        align-items: center; /* Centraliza os botões quando estão em coluna */
-    }
-    .cta-button-pr {
-        width: 100%; /* Faz com que cada botão ocupe toda a largura disponível */
-        text-align: center; /* Centraliza o texto dentro do botão se ele for um link display block */
-    }
-}
-
 .cta-button {
     margin-top: 30px;
 }
-
 
 /* Schedule Section */
 .schedule {

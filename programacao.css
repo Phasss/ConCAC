@@ -6,9 +6,8 @@
 } */
 
 :root {
-    --primary-color: #ff5722; /* Laranja vibrante */
-    --primary-dark: #e64a19;
-    --secondary-color: #9c27b0; /* Roxo */
+    --primary-color: #0019fc; /* Laranja vibrante */
+    --secondary-color: #777777; /* Roxo */
     --accent-color: #2196f3; /* Azul */
     --accent2-color: #4caf50; /* Verde */
     --accent3-color: #ffeb3b; /* Amarelo */
